@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+}
+
+#header {
+    background-color: gold;
+}
