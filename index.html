@@ -2,7 +2,11 @@
 <html lang="">
 
 <head>
-    <link src="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +14,25 @@
 </head>
 
 <body>
+    <nav class="navbar-inverse menubar">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="website.here"> Xavier School </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#acheievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
     <img class="logo" src="xavierlogo.png">
     <div id="header">
         <h1> Xavier School </h1>
@@ -23,10 +46,13 @@
     <br> <br> <br> <br>
     <h1> Facts about Xavier School </h1>
     <h2> Xavier School was founded on December 15, 1955. </h2>
-    
+
     <br> <br>
-    
-    <h1> LINKS </h1>
+
+
+    <div class="page-header" id="links">
+        <h1> LINKS </h1>
+    </div>
     <br> <br>
     <h1> Our Wikipedia page: </h1>
     <h2> https://en.wikipedia.org/wiki/Xavier_School </h2>
@@ -36,9 +62,10 @@
     <h2> https://www.xs.edu.ph </h2>
     <h1> Our facebook: </h1>
     <h2> https://www.facebook.com/xavierkuangchi </h2>
-    
-    <br> <br>
-    
+
+
+    <br> <br> <br> <br> <br> <br> <br> <br>
+
     <h1> ABOUT US </h1>
     <h3> Founded and managed by the Society of Jesus, the school is a K-12 school, offering a three-level curriculum: Early Education, Grade School, and High School. Xavier School is also an IB World School, authorized to offer the International Baccalaureate Diploma Program (IBDP), a rigorous and innovative academic program recognized by universities worldwide. </h3>
 </body></html>

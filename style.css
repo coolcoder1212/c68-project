@@ -1,9 +1,15 @@
 body {
     text-align: center;
-    background-color: cornflowerblue;
     font-family: sans-serif;
 }
 
 #header {
     background-color: gold;
+}
+
+.menubar {
+    position: fixed;
+    width: 100%;
+    z-index: 999990;
+    top: 0px;
 }
